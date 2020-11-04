@@ -13,7 +13,7 @@ namespace Fight_MAN
             int game = 1;
             int shopLock = 0;
             int expGrid = 2;
-            int expbase = 10;
+            int expbase = 5;
             int[] expLevel = { expbase * expGrid, 2 * expbase * expGrid, 3 * expbase * expGrid, 4 * expbase * expGrid, 5 * expbase * expGrid };
             int[] bonusLevel = { 5, 1, 1, 1, 1 };
             int expCurrent = 0;
